@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/img/photo_favicon/favicon.ico" type="image/x-icon">
+        <meta name="description" content="Portfólio de Carlos da Costa - Desenvolvedor web">
+        <meta name="keywords" content="portfólio, desenvolvedor web, front-end, HTML, CSS, JavaScript, Bootstrap, back-end, full-stack">
+        <meta name="author" content="Carlos da Costa">
+        <title>Portfólio</title>
+        <script src="assets/jquery/jquery-3.6.4.min.js"></script>
+        <script src="assets/jquery/jquery.js"></script>
+        <!--<script src="assets/bootstrap/bootstrap.min.js"></script>-->
+        <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/js/navbar.js"></script>
+    </head>
+    <body>
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <!-- Marca ou Logo -->
+                    <a href="#" class="text-white me-3 link-home">
+                        <img src="assets/img/photo_favicon/carlos.webp" class="photo-carlos" alt="Foto_Carlos">
+                    </a>
+                    <a class="navbar-brand link-home" href="#" id="title-portfolio">Pythonfólio</a>
+                    <!-- Botão sanduíche (aparece em telas menores) -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Alternar navegação">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Itens do menu -->
+                    <div class="collapse navbar-collapse" id="menuNavbar">
+                    <!-- Menu alinhado à esquerda -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link link-home" aria-current="page" href="#">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Projetos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Gráficos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-about" href="#">Sobre</a>
+                            </li>
+                        </ul>
+                        <!-- Ícones sociais alinhados à direita -->
+                        <div class="d-flex div-center-home">
+                            <a href="https://github.com/jcarlossc" title="___Github" class="text-white me-3" target="_blank">
+                                <img src="assets/img/icons/github.svg" class="header-icons" alt="Ícone_Github">
+                            </a>
+                            <a href="assets/curriculum/curriculo-jose-carlos-costa.pdf" title="___Currículo" class="text-white me-3" target="_blank">
+                                <img src="assets/img/icons/pdf.svg" class="header-icons" alt="Ícone_Pdf">
+                            </a>
+                            <a href="https://www.linkedin.com/in/carlos-da-costa-669252149/" title="___Linkedin" class="text-white me-3" target="_blank">
+                                <img src="assets/img/icons/linkedin.svg" class="header-icons" alt="Ícone_Linkedin">
+                            </a>
+                            <a href="https://informaticus77-python.blogspot.com/" title="___Blogger-Python" class="text-white me-3" target="_blank">
+                                <img src="assets/img/icons/blogger.svg" class="header-icons" alt="Ícone_Blogger">
+                            </a>
+                            <a href="https://informaticus77-r.blogspot.com/" title="___Blogger-R" class="text-white me-3" target="_blank">
+                                <img src="assets/img/icons/blogger.svg" class="header-icons" alt="Ícone_Blogger">
+                            </a>
+                            <a href="https://pypi.org/user/jcarlossc/" title="___Pypi" class="text-white me-3" target="_blank">
+                                <img src="assets/img/icons/pypi.svg" class="header-icons" alt="Ícone_Pypi">
+                            </a>
+                            <a href="https://www.kaggle.com/jcarlossc" title="___Kaggle" class="text-white me-3" target="_blank">
+                                <img src="assets/img/icons/kaggle.svg" class="header-icons" alt="Ícone_Kaggle">
+                            </a>
+                            <a href="https://x.com/jcarlossc1977" title="___Twitter" class="text-white me-3" target="_blank">
+                                <img src="assets/img/icons/twitter.svg" class="header-icons" alt="Ícone_Twitter">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- Home -->
+            <section class="section-home">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 text-light">
+                            <!-- Título -->
+                            <h1 class="display-5 text-center mt-4" id="text-title-home">Carlos da Costa</h1>
+                            <!-- Subtítulo -->
+                            <h2 class="display-5 text-center" id="text-work-home">Desenvolvendor Python</h2>
+                            <!-- Frase -->
+                            <p class="display-5 text-center mt-5" id="text-phrase-home">
+                                Eu transformo ideias em soluções inteligentes escritas em 
+                                Python.
+                            </p>
+                            <!-- Imagem Python -->
+                            <div class="text-center">
+                                <img src="assets/img/image/python.svg" alt="Imagem-Python" id="image-home">
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </section>
+
+        </main>
+       <!-- <script src="assets/bootstrap/bootstrap.bundle.min.js"></script> -->
+    </body>
+</html>

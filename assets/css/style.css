@@ -1,0 +1,51 @@
+:root {
+    --color-font: #212529;
+    --color-blue-python: #4989BB;
+    --color-white: #e0e0e0;
+    --color-yelow-python: #F6BA08;
+    --color-background: rgb(29, 28, 28);
+    --color-background-hover: rgb(71, 71, 71);
+    --height-page: 100vh;
+    --font-text-long: 1.4rem;
+    --font-text-title: 3rem;
+    --font-text-list: 1.2rem;
+    --subtitle-github: 1.1rem;
+}
+html body {
+    height: var(--height-page);
+    background-color: var(--color-background);
+    background-image: url(../../assets/img/image/logo-python.png);
+    background-repeat: unset;
+}
+/* Header */
+#title-portfolio{
+    color: var(--color-yelow-python);
+    margin-top: -3px;
+}
+.header-icons {
+    width: 30px;
+}
+.header-icons:hover {
+    box-shadow: 0 0 10px var(--color-white);
+    border-radius: 50%;
+}
+.photo-carlos {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+/* Home */
+#text-title-home {
+    font-size: 2rem;
+}
+#text-work-home {
+    font-size: 1.1rem;
+    margin-top: -12px;
+    color:  var(--color-yelow-python);
+}
+#text-phrase-home {
+    font-size: 3.2rem;
+}
+#image-home {
+    width: 20%;
+}
