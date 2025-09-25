@@ -17,6 +17,7 @@ html body {
     background-image: url(../../assets/img/image/logo-python.png);
     background-repeat: unset;
 }
+
 /* Header */
 #title-portfolio{
     color: var(--color-yelow-python);
@@ -48,4 +49,37 @@ html body {
 }
 #image-home {
     width: 20%;
+}
+
+/* projects */
+.text-title-projects {
+    font-size: var(--font-text-title);
+    margin-top: 50px;
+}
+.text-phrase-projects {
+    margin-top: 10px;
+    font-size: var(--font-text-long);
+}
+.list-projects {
+    margin-top: 70px;
+}
+.list-color {
+    background-color: var(--color-background);
+}
+.list-color:hover {
+    background-color: var(--color-background-hover);
+}
+.color-bnt {
+    background-color: var(--color-yelow-python);
+}
+.image-python-projects {
+    margin-top: -5px;
+    width: 25px;
+    margin-left: -10px;
+}
+#margin-top-list {
+    margin-top: 2px;
+}
+#margin-top-text {
+    margin-top: 10px;
 }
