@@ -1,9 +1,9 @@
 $(function(){ 
 
     $(".section-home").show(500); 
-    $(".section-projects").hide(500);
-    $(".section-graphics").hide(500);
-    $(".section-about").hide(500);
+    $(".section-projects").hide();
+    $(".section-graphics").hide();
+    $(".section-about").hide();
 
     $(".link-home").on("click", function(){
 

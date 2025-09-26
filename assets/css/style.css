@@ -83,3 +83,29 @@ html body {
 .margin-top-list {
     margin-top: 2px;
 }
+
+/*graphics */
+#text-title-graphic {
+    font-size: var(--font-text-title);
+}
+.image-card-graphic {
+    margin: auto;
+}
+.card-graphic {
+    background-color: var(--color-background-home);
+    font-size: 1.5rem;
+}
+#text-phrase-graphic {
+    font-size: var(--font-text-long);
+}
+.font-size-card-graphic {
+    font-size: 1.4rem;
+    text-align: center;
+}
+.underline {
+    text-decoration: none;
+    color: var(--color-white);
+}
+.card-graphic:hover {
+     background-color: var(--color-background-hover);
+}
