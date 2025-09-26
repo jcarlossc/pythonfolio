@@ -10,7 +10,7 @@
         <title>Portfólio</title>
         <script src="assets/jquery/jquery-3.6.4.min.js"></script>
         <script src="assets/jquery/jquery.js"></script>
-        <!--<script src="assets/bootstrap/bootstrap.min.js"></script>-->
+        <script src="assets/bootstrap/bootstrap.min.js"></script>
         <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <script src="assets/js/navbar.js"></script>
@@ -21,10 +21,10 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
                     <!-- Marca ou Logo -->
-                    <a href="#" class="text-white me-3 link-home">
+                    <a href="javascript:void(0)" class="text-white me-3 link-home">
                         <img src="assets/img/photo_favicon/carlos.webp" class="photo-carlos" alt="Foto Carlos da Costa">
                     </a>
-                    <a class="navbar-brand link-home" href="" id="title-portfolio">Pythonfólio</a>
+                    <a class="navbar-brand link-home" href="javascript:void(0)" id="title-portfolio">Pythonfólio</a>
                     <!-- Botão sanduíche (aparece em telas menores) -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Alternar navegação">
                         <span class="navbar-toggler-icon"></span>
@@ -40,10 +40,10 @@
                                 <a class="nav-link link-projects" href="javascript:void(0)">Projetos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Gráficos</a>
+                                <a class="nav-link link-graphics" href="javascript:void(0)">Gráficos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link-about" href="#">Sobre</a>
+                                <a class="nav-link link-about" href="javascript:void(0)">Sobre</a>
                             </li>
                         </ul>
                         <!-- Ícones sociais alinhados à direita -->
@@ -100,6 +100,7 @@
                     </div>    
                 </div>
             </section>
+            <!-- Projetos -->
             <section class="section-projects">
                  <div class="container-fluid">
                     <div class="row">
@@ -172,6 +173,81 @@
                         </div>
                     </div>
                 </div>
+            </section>
+            <!-- Gráficos -->
+            <section class="section-graphics">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-4 mt-5 text-light">
+                            <h1 class="display-5" id="text-title-graphic">Computação gráfica</h1>
+                            <p class="display-5" id="text-phrase-graphic">
+                                Experiência em imagens bitmap (edição e otimização de arquivos 
+                                rasterizados), imagens vetoriais (criação e manipulação de 
+                                gráficos escaláveis) e modelagem 3D (desenvolvimento de modelos, 
+                                texturização e renderização). Domínio de ferramentas como Photoshop, 
+                                Gimp, Inkscape, Corel Draw, 3ds max, Blender, entre outros. 
+                            </p>
+                        </div>
+                        <div class="col-xl-8 text-light" id="margin-cards">                
+                            <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+                                <a href="graphic-bitmap.html" class="underline"><div class="col">
+                                    <div class="card h-70 border-light card-graphic text-light">
+                                        <img src="assets/img/icons/jpg.png" class="card-img-top w-50 image-card-graphic" alt="Logo Bitmap">
+                                        <div class="card-body">
+                                            <h5 class="card-title display-5 text-center font-size-card-graphic">Imagens Bitmap</h5>
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <a href="graphic-gif.html" class="underline"><div class="col">
+                                    <div class="card h-70 border-light card-graphic text-light">
+                                        <img src="assets/img/icons/gif.png" class="card-img-top w-50 image-card-graphic" alt="Logo Gif">
+                                        <div class="card-body">
+                                            <h5 class="card-title display-5 text-center font-size-card-graphic">Imagens Gif</h5>
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <a href="graphic-javascript.html" class="underline"><div class="col">
+                                    <div class="card h-70 border-light card-graphic text-light">
+                                        <img src="assets/img/icons/js.png" class="card-img-top w-50 image-card-graphic" alt="Logo Javascript">
+                                        <div class="card-body">
+                                            <h5 class="card-title display-5 text-center font-size-card-graphic">Imagens JavaScript</h5>
+                                        </div>
+                                    </div>
+                                </div></a>
+                            </div>
+                            <div class="row row-cols-1 row-cols-md-3 g-4 mt-1">
+                                <a href="graphic-svg.html" class="underline"><div class="col">
+                                    <div class="card h-70 border-light card-graphic text-light">
+                                        <img src="assets/img/icons/svg.png" class="card-img-top w-50 image-card-graphic" alt="Logo Svg">
+                                        <div class="card-body">
+                                            <h5 class="card-title display-5 text-center font-size-card-graphic">Imagens Svg</h5>
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <a href="graphic-modelagem.html" class="underline"><div class="col">
+                                    <div class="card h-70 border-light card-graphic text-light">
+                                        <img src="assets/img/icons/3d_house.png" class="card-img-top w-50 image-card-graphic" alt="Logo 3d">
+                                        <div class="card-body">
+                                            <h5 class="card-title display-5 text-center font-size-card-graphic">Modelagem 3D</h5>
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <a href="graphic-images3d.html" class="underline"><div class="col">
+                                    <div class="card h-70 border-light card-graphic text-light">
+                                        <img src="assets/img/icons/3d.png" class="card-img-top w-50 image-card-graphic" alt="Logo 3d">
+                                        <div class="card-body">
+                                            <h5 class="card-title display-5 text-center font-size-card-graphic">Imagens 3D</h5>
+                                        </div>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About -->
+            <section class="section-about">
+                <h1>teste sobre</h1>
             </section>
         </main>
        <!-- <script src="assets/bootstrap/bootstrap.bundle.min.js"></script> -->
