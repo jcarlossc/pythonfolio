@@ -247,7 +247,404 @@
             </section>
             <!-- About -->
             <section class="section-about">
-                <h1>teste sobre</h1>
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- Foto -->
+                        <div class="mt-5">
+                            <img class="image-photo mx-auto d-block photo-about" src="assets/img/photo_favicon/carlos.webp" alt="Foto Carlos da Costa">
+                        </div>
+                        <div class="col-6">
+                            <section>
+                                <!-- Botão que abre o modal -->
+                                <div class="container text-center mt-5 pt-5">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#textoModal">
+                                        Sobre mim
+                                    </button>
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="textoModal" tabindex="-1" aria-labelledby="textoModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                                        <div class="modal-content rounded-4 shadow">
+                                            <!-- Cabeçalho -->
+                                            <div class="modal-header background-modal-text">
+                                            <h5 class="modal-title" id="textoModalLabel">Sobre mim</h5>
+                                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                                            </div>
+                                            <!-- Corpo -->
+                                            <div class="modal-body background-modal-text">
+                                            <p class="display-5 text-phrase-about">
+                                                Olá! Meu nome é Carlos da Costa. Eu sou um profissional em transição de carreira e entusiasta da tecnologia, 
+                                                com foco em programação Python. Dedico-me diariamente a aprender, 
+                                                construir projetos e explorar novas possibilidades dentro da área de 
+                                                desenvolvimento.
+                                            </p>
+                                            <p class="display-5 text-phrase-about">
+                                                Tenho uma grande paixão por programação web, criando aplicações 
+                                                modernas e funcionais com frameworks como Flask e Bottle. Além 
+                                                disso, sou fascinado por prototipação eletrônica, onde aplico 
+                                                Python para dar vida a projetos com Arduino, ESP32 e outros 
+                                                dispositivos. Também me interesso profundamente por computação gráfica, 
+                                                explorando desde a criação de gráficos até o desenvolvimento de 
+                                                interfaces visuais e experiências digitais interativas.
+                                            </p>
+                                            <p class="display-5 text-phrase-about"> 
+                                                Estou animado para continuar crescendo e contribuir com soluções 
+                                                inovadoras onde quer que a tecnologia possa fazer a diferença.
+                                            </p>
+                                            </div>
+                                            <!-- Rodapé -->
+                                            <div class="modal-footer background-modal-text">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <!-- Botão para abrir modal -->
+                                <div class="container text-center mt-2">
+                                    <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#meuModal">
+                                        Habilidades Técnicas
+                                    </button>
+                                </div>
+                                <!-- Modal fullscreen -->
+                                <div class="modal fade" id="meuModal" tabindex="-1" aria-labelledby="meuModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-fullscreen">
+                                        <div class="modal-content bg-custom background-skills">
+                                            <div class="modal-header text-light border-0">
+                                                <h3 class="modal-title" id="meuModalLabel">Habilidades</h3>
+                                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                                            </div>
+                                            <!-- Habilidades --> 
+                                            <div class="container-fluid background-skills">
+                                                <div class="row">
+                                                    <div class="col-xl-6 text-light">
+                                                        <div class="row">
+                                                            <div class="col-xl-6 text-light mb-1">
+                                                                <div class="card border-light background-skills text-light">
+                                                                    <h5 class="card-header display-5 title-card-skills">Sistemas Operacionais</h5>
+                                                                    <div class="card-body pt-1 background-skills">
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/windows.svg" class="image-skills" alt="Imagem-Windows">
+                                                                            <p class="text-center">Windows</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/linux.svg" class="image-skills" alt="Imagem-Linux">
+                                                                            <p class="text-center">Linux</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 text-light mb-1">
+                                                                <div class="card border-light background-skills text-light">
+                                                                    <h5 class="card-header display-5 title-card-skills">Linguagens</h5>
+                                                                    <div class="card-body pt-1 background-skills">
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/python.svg" class="image-skills" alt="Imagem-Python">
+                                                                            <p class="text-center">Python</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/r.svg" class="image-skills" alt="Imagem-R">
+                                                                            <p class="text-center">R</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/javascript.svg" class="image-skills" alt="Imagm-JavaScript">
+                                                                            <p class="text-center">JavaScript</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-xl-6 text-light mb-1">
+                                                                <div class="card border-light background-skills text-light">
+                                                                    <h5 class="card-header display-5 title-card-skills">Marcação e Estilo</h5>
+                                                                    <div class="card-body pt-1 background-skills">
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/html.svg" class="image-skills" alt="Imagem-Html">
+                                                                            <p class="text-center">Html</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/css.svg" class="image-skills" alt="Imagem-Css">
+                                                                            <p class="text-center">Css</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/bootstrap.svg" class="image-skills" alt="Imagem-Bootstrap">
+                                                                            <p class="text-center">Bootstrap</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 text-light mb-1">
+                                                                <div class="card border-light background-skills text-light">
+                                                                    <h5 class="card-header display-5 title-card-skills">Banco de Dados</h5>
+                                                                    <div class="card-body pt-1 background-skills">
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/mysql.svg" class="image-skills" alt="Imagem-Mysql">
+                                                                            <p class="text-center">MySql</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/sqlite.svg" class="image-skills" alt="Imagem-Sqlite">
+                                                                            <p class="text-center">SQLite</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-xl-6 text-light mb-1">
+                                                                <div class="card border-light background-skills text-light">
+                                                                    <h5 class="card-header display-5 title-card-skills">Ferramentas</h5>
+                                                                    <div class="card-body pt-1 background-skills">
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/vscode.svg" class="image-skills" alt="Imagem-VSCode">
+                                                                            <p class="text-center">VS Code</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/sublime.svg" class="image-skills" alt="Imagem-Sublime">
+                                                                            <p class="text-center">Sublime</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/rstudio.svg" class="image-skills" alt="Imagem-RStudio">
+                                                                            <p class="text-center">RStudio</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 text-light mb-1">
+                                                                <div class="card border-light background-skills text-light">
+                                                                    <h5 class="card-header display-5 title-card-skills">Versionamento</h5>
+                                                                    <div class="card-body pt-1 background-skills">
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/git.svg" class="image-skills" alt="Imagem-Git">
+                                                                            <p class="text-center">Git</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/github.svg" class="image-skills" alt="Imagem-Github">
+                                                                            <p class="text-center">Github</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12 text-light mb-1">
+                                                                <div class="card border-light background-skills text-light">
+                                                                    <h5 class="card-header display-5 title-card-skills">Computação Gráfica</h5>
+                                                                    <div class="card-body pt-1 background-skills">
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/gimp.svg" class="image-skills" alt="Imagem-Gimp">
+                                                                            <p class="text-center">Gimp</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills" id="img-photoshop">
+                                                                            <img src="assets/img/icons/photoshop.svg" class="image-skills" alt="Imagem-PhotoShop">
+                                                                            <p class="text-center">PhotoShop</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/inkscape.svg" class="image-skills" alt="Imagem-Inkscape">
+                                                                            <p class="text-center">Inkscape</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/max.png" class="image-skills" alt="Imagem-3dsMax">
+                                                                            <p class="text-center">3DS Max</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/blender.svg" class="image-skills" alt="Imagem-Blender">
+                                                                            <p class="text-center">Blender</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/corel.png" class="image-skills" alt="Imagem-CorelDraw">
+                                                                            <p class="text-center">Corel</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 text-light">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 text-light mb-1">
+                                                                <div class="card border-light background-skills text-light">
+                                                                    <h5 class="card-header display-5 title-card-skills">Análise de Dados</h5>
+                                                                    <div class="card-body pt-1 background-skills">
+                                                                        <div class="card-width-height-skills" id="img-photoshop">
+                                                                            <img src="assets/img/icons/knime.svg" class="image-skills" alt="Imagem-Knime">
+                                                                            <p class="text-center">Knime</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/pandas.svg" class="image-skills" alt="Imagem-Pandas">
+                                                                            <p class="text-center">Pandas</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/kaggle.svg" class="image-skills" alt="Imagem-Kaggle">
+                                                                            <p class="text-center">Kaggle</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/jupyter.svg" class="image-skills" alt="Imagem-Jupyter">
+                                                                            <p class="text-center">Jupyter</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/numpy.svg" class="image-skills" alt="Imagem-Numpy">
+                                                                            <p class="text-center">Numpy</p>
+                                                                        </div>
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/anaconda.svg" class="image-skills" alt="Imagem-Anaconda">
+                                                                            <p class="text-center">Anaconda</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-xl-6 text-light mb-1">
+                                                                <div class="card border-light background-skills text-light">
+                                                                    <h5 class="card-header display-5 title-card-skills">Orientação a Objetos</h5>
+                                                                    <div class="card-body pt-1 background-skills">
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/python.svg" class="image-skills" alt="Imagem-Python">
+                                                                            <p class="text-center">Python</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 text-light mb-1">
+                                                                <div class="card border-light background-skills text-light">
+                                                                    <h5 class="card-header display-5 title-card-skills">Princípios SOLID</h5>
+                                                                    <div class="card-body pt-1 background-skills">
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/python.svg" class="image-skills" alt="Imagem-Python">
+                                                                            <p class="text-center">Python</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-xl-6 text-light mb-1">
+                                                                <div class="card border-light background-skills text-light">
+                                                                    <h5 class="card-header display-5 title-card-skills">CI/CD</h5>
+                                                                    <div class="card-body pt-1 background-skills">
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/python.svg" class="image-skills" alt="Imagem-Python">
+                                                                            <p class="text-center">Python</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 text-light mb-1">
+                                                                <div class="card border-light background-skills text-light">
+                                                                    <h5 class="card-header display-5 title-card-skills">Design Responsivo</h5>
+                                                                    <div class="card-body pt-1 background-skills">
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/python.svg" class="image-skills" alt="Imagem-Python">
+                                                                            <p class="text-center">Python</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-xl-6 text-light mb-1">
+                                                                <div class="card border-light background-skills text-light">
+                                                                    <h5 class="card-header display-5 title-card-skills">Design Patterns</h5>
+                                                                    <div class="card-body pt-1 background-skills">
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/python.svg" class="image-skills" alt="Imagem-Python">
+                                                                            <p class="text-center">Python</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3 text-light mb-1">
+                                                                <div class="card border-light background-skills text-light">
+                                                                    <h5 class="card-header display-5 title-card-skills">APIs</h5>
+                                                                    <div class="card-body pt-1 background-skills">
+                                                                        <div class="card-width-height-skills">
+                                                                            <img src="assets/img/icons/python.svg" class="image-skills" alt="Imagem-Python">
+                                                                            <p class="text-center">Python</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3 text-light">
+                                                                <div class="card border-light background-skills text-light">
+                                                                    <div class="modal-footer border-0">
+                                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <!-- Botão que abre o modal -->
+                                <div class="container text-center mt-2">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+                                        Abrir Formulário de Contato
+                                    </button>
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content rounded-4 shadow">
+                                        
+                                        <!-- Cabeçalho -->
+                                        <div class="modal-header background-form">
+                                        <h5 class="modal-title text-light" id="loginModalLabel">Login</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                                        </div>
+
+                                        <!-- Corpo -->
+                                        <div class="modal-body background-form text-light">
+                                            <form action="https://formspree.io/f/mgvzlegk" method="POST" class="form-contact">
+                                                <div class="mb-3">
+                                                    <label for="nome" class="form-label">Nome</label>
+                                                    <input type="text" class="form-control" id="nome" name="nome" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="email" class="form-label">E-mail</label>
+                                                    <input type="email" class="form-control" id="email" name="email" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="mensagem" class="form-label">Assunto</label>
+                                                    <textarea class="form-control" id="mensagem" name="mensagem" rows="5" required></textarea>
+                                                </div>
+                                                <!-- <input type="hidden" name="_redirect" value="https://portfolio-carlos-costa.netlify.app/templates/contacts/thanks.html"> -->
+                                                <button type="submit" class="btn btn-primary">Enviar</button>
+                                            </form>
+                                        </div>
+                                        <!-- Rodapé -->
+                                        <div class="modal-footer background-form">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-6">
+                            <div class="text-light mt-5">
+                                📌Recife, PE - Brasil<br>
+                                📌Telefone: +55 81 99712 9140<br>
+                                📌Telegram: @jcarlossc<br>
+                                📌Blogger linguagem R: <a href="https://informaticus77-r.blogspot.com/" target="_blank">https://informaticus77-r.blogspot.com/</a><br>
+                                📌Blogger linguagem Python: <a href="https://informaticus77-python.blogspot.com/" target="_blank">https://informaticus77-python.blogspot.com/</a><br>
+                                📌Email: <a href="mailto:josecscosta@fac.pe.senac.br">jcarlossc1977@gmail.com</a><br>
+                                📌Portfólio em construção: <a href="https://portfolio-carlos-costa.netlify.app/" target="_blank">https://portfolio-carlos-costa.netlify.app/</a><br>
+                                📌LinkedIn: <a href="https://www.linkedin.com/in/carlos-da-costa-669252149/" target="_blank">https://www.linkedin.com/in/carlos-da-costa-669252149/</a><br>
+                                📌GitHub: <a href="https://github.com/jcarlossc/" target="_blank">https://github.com/jcarlossc/</a><br>
+                                📌Kaggle: <a href="https://www.kaggle.com/jcarlossc/" target="_blank">https://www.kaggle.com/jcarlossc/</a> <br> 
+                                📌Twitter/X: <a href="https://x.com/jcarlossc1977/" target="_blank">https://x.com/jcarlossc1977/</a><br>
+                                📌Certificados: <a href="https://github.com/jcarlossc/certificados/" target="_blank">https://github.com/jcarlossc/certificados/</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
        <!-- <script src="assets/bootstrap/bootstrap.bundle.min.js"></script> -->

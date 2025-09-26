@@ -109,3 +109,13 @@ html body {
 .card-graphic:hover {
      background-color: var(--color-background-hover);
 }
+
+/* About */
+.photo-about {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.text-phrase-about {
+    font-size: var(--font-text-long);
+}
