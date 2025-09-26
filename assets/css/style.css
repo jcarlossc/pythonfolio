@@ -119,3 +119,9 @@ html body {
 .text-phrase-about {
     font-size: var(--font-text-long);
 }
+.logo-about {
+    width: 20px;
+}
+ul li {
+    list-style: none;
+}
