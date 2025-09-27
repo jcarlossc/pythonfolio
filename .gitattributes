@@ -1,0 +1,7 @@
+# Ignora arquivos HTML, CSS e JS da contagem de linguagens
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+
+# Ignora toda uma pasta
+/public linguist-detectable=false
